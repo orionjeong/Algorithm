@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9070f1bf-90f8-440e-ada0-3cbbf7ec9708" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DynamicPrograming/src/더하기123.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DynamicPrograming/src/타일링2xntwo.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java" afterPath="$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java" />
+      <change beforePath="$PROJECT_DIR$/DynamicPrograming/src/더하기123.java" afterPath="$PROJECT_DIR$/DynamicPrograming/src/더하기123.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +73,8 @@
       <file leaf-file-name="타일링2xn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +107,8 @@
       <file leaf-file-name="더하기123.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/더하기123.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="587">
+              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -159,8 +156,8 @@
         <option value="$PROJECT_DIR$/DataStructure/src/에디터.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/조세퍼스.java" />
         <option value="$PROJECT_DIR$/DynamicPrograming/src/일로만들기.java" />
-        <option value="$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java" />
         <option value="$PROJECT_DIR$/DynamicPrograming/src/타일링2xntwo.java" />
+        <option value="$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java" />
         <option value="$PROJECT_DIR$/DynamicPrograming/src/더하기123.java" />
       </list>
     </option>
@@ -199,6 +196,10 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DivideConquer" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="DynamicPrograming" type="462c0819:PsiDirectoryNode" />
@@ -507,12 +508,12 @@
       <workItem from="1522145749981" duration="14781000" />
       <workItem from="1522203968631" duration="9566000" />
       <workItem from="1522239909653" duration="6694000" />
-      <workItem from="1522296341579" duration="14886000" />
+      <workItem from="1522296341579" duration="16644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61374000" />
+    <option name="totallyTimeSpent" value="63132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="824" y="0" width="1096" height="1100" extended-state="0" />
@@ -555,7 +556,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -915,37 +916,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/일로만들기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicPrograming/DynamicPrograming.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/붕어빵판매하기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,10 +934,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/타일링2xn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/일로만들기.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/붕어빵판매하기.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicPrograming/src/더하기123.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="587">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding />
         </state>
       </provider>

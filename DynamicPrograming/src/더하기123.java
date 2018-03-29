@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class 더하기123 {
     static int memo[];
+    static int memo2[];
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         int data[] = new int[n];
-        memo= new int[n+1];
+
         for(int i=0; i<n; i++ ){
             data[i]=scan.nextInt();
         }
@@ -16,7 +17,10 @@ public class 더하기123 {
  */
         for(int j=0; j<data.length; j++){
             memo=new int[data[j]+1];
+            memo2=new int[data[j]+1];
+            System.out.println(bottomUpaddCount(data[j]));
             System.out.println(addCount(data[j]));
+
         }
     }
     public static int addCount(int n){
@@ -33,5 +37,22 @@ public class 더하기123 {
         return memo[n] ;
     }
 
-    public static it
+    public static int bottomUpaddCount(int n){
+
+       if(n<3){
+          return n;
+       }else{
+           memo2[0]=0;
+           memo2[1]=1;
+           memo2[2]=2;
+       }
+       if(n>3){
+           memo2[3]=4;
+       }
+
+        for(int i=4; i<=n; i++){
+            memo2[i]=memo2[i-1]+ memo2[i-2]+ memo2[i-3];
+        }
+        return memo2[n];
+    }
 }
