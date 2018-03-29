@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class 타일링2xn {
+public class 타일링2xntwo {
+
     static int[] memo;
     static int[] memo2;
     public static void main(String[ ] args) throws IOException {
@@ -25,14 +26,14 @@ public class 타일링2xn {
             return memo2[n]=1;
         }
         for(int i =2; i<=n; i++){
-            memo2[i]= (memo2[i-1]+memo2[i-2])%10007;
+            memo2[i]= (memo2[i-1]+(2*memo2[i-2]))%10007;
         }
         return memo2[n];
     }
     public static int topDownFull(int n){
         if(n<2) return 1;
         if(memo[n]>0) return memo[n];
-        memo[n] = (topDownFull(n-1)+topDownFull(n-2))%10007;
+        memo[n] = (topDownFull(n-1)+(2*topDownFull(n-2)))%10007;
         return memo[n];
     }
 }
