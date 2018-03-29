@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class 일로만들기 {
-    public static int[] a ;
+    public static int[] a;
     public int bottomUp(int n){
 
         int a[]= new int[n+1];
