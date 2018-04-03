@@ -23,7 +23,7 @@ public class 쉬운계단수 {
                 }
                 if(z>=1 && z<=8){
                     memo[j][z]=0;
-                    memo[j][z]= (memo[j-1][z-1]+memo[j-1][z+1])%MOD;
+                    memo[j][z]= ((memo[j-1][z-1]%MOD)+(memo[j-1][z+1])%MOD)%MOD;
                 }
                 if(z==9){
                     memo[j][9]= memo[j-1][8]%MOD;
