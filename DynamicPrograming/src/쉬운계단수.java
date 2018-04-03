@@ -2,7 +2,11 @@ import java.util.Scanner;
 
 public class 쉬운계단수 {
     static int[] memo;
+
     static private int MOD=1000000000;
+
+
+
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
@@ -11,6 +15,7 @@ public class 쉬운계단수 {
         for(int i=1; i<10; i++){
             memo[1][i]=1;
         }
+
         for(int j=2; j<=n; j++){
             for(int z=0; z<=9; z++){
                 if(z==0){
