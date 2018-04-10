@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/DivideConquer/DivideConquer.iml" filepath="$PROJECT_DIR$/DivideConquer/DivideConquer.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicPrograming/DynamicPrograming.iml" filepath="$PROJECT_DIR$/DynamicPrograming/DynamicPrograming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortAlgorithm/SortAlgorithm.iml" filepath="$PROJECT_DIR$/SortAlgorithm/SortAlgorithm.iml" />
     </modules>
   </component>
 </project>
